@@ -1,0 +1,96 @@
+{
+  "editor.tabSize": 2,
+  "files.associations": {
+      "*.vue": "vue"
+  },
+  "eslint.options": {
+      "extensions": [
+          ".js",
+          ".vue"
+      ]
+  },
+  "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true
+  },
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "vue": "html",
+      "vue-html": "html"
+  },
+  "git.confirmSync": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.fontFamily": "'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "editor.codeLens": true,
+  "editor.snippetSuggestions": "top",
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.fontSize": 16,
+  "editor.fontWeight": "bold",
+  "window.zoomLevel": 0.7,
+  "files.autoSaveDelay": 1000,
+  "editor.multiCursorModifier": "alt",
+  "vim.easymotion": true,
+  // "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.surround": true,
+  "vim.insertModeKeyBindings": [
+      {
+          "before": [
+              "j",
+              "j"
+          ],
+          "after": [
+              "<Esc>"
+          ]
+      }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+      {
+          "before": [
+              "<leader>",
+              "d"
+          ],
+          "after": [
+              "d",
+              "d"
+          ]
+      },
+      {
+          "before": [
+              "<C-n>"
+          ],
+          "commands": [
+              ":nohl"
+          ]
+      }
+  ],
+  "vim.leader": "<space>",
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "files.autoSave": "onWindowChange",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.autofetch": true,
+  "sqltools.connections": [],
+  "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "workbench.colorTheme": "One Dark Pro",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "sync.autoUpload": true,
+  "sync.gist": "3ab4fce4a7de7c0356480d77acd3a24a"
+}
