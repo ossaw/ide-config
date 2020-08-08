@@ -1,0 +1,37 @@
+[user]
+	name = 姜皓
+	email = jianghao7625@gmail.com
+[core]
+	excludesfile = /Users/jianghao/.gitignore_global
+	editor = vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/jianghao/.stCommitMsg
+[alias]
+	st = status
+	pl = pull
+	pr = pull --rebase
+	ss = stash
+	ps = push
+	ck = checkout
+	cb = checkout
+	br = branch
+	bd = branch -d
+	mg = merge
+	cm = commit
+	ca = commit -a
+	rb = rebase
+	rs = reset
+	cb = checkout -b
+	lg = log --graph --date=format:'%Y-%m-%d %H:%M:%S %A'
+	log = log --date=format:'%Y-%m-%d %H:%M:%S %A'
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
