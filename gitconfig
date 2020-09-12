@@ -4,6 +4,8 @@
 [core]
 	excludesfile = /Users/jianghao/.gitignore_global
 	editor = vim
+	autocrlf = input
+	safecrlf = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -30,6 +32,7 @@
 	cb = checkout -b
 	lg = log --graph --date=format:'%Y-%m-%d %H:%M:%S %A'
 	log = log --date=format:'%Y-%m-%d %H:%M:%S %A'
+	rv = revert
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
